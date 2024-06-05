@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Practice</title>
+	<style>
+		*{
+			background-color: rgb(26, 24, 24);
+			color: blanchedalmond;
+		}
+	</style>
+
+	<script>
+    function find(){
+				const  res = document.getElementById('res') 
+				const num =  document.getElementById('num').value;
+				res.innerHTML = num	
+				
+
+			}
+				
+	</script>
+</head>
+<body>
+	<!-- <label for="num">Enter the number : </label>
+	<input type="number" name="num" id="num" placeholder="number">
+	<button onclick="rs()">calculate</button>
+	<p id="result"></p> -->
+	<p>enter a number : </p>
+	<input type="number" id="num" placeholder="any number">
+	<button id="btn" onclick="find()">Find</button> 
+	<p id="res"></p>
+</body>
+</html>
