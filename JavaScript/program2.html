@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Practice</title>
+	<style>
+		*{
+			background-color: rgb(26, 24, 24);
+			color: blanchedalmond;
+		}
+	</style>
+
+	<script>
+		/*Print Hello world
+		console.log('helllo DopeDev')
+		alert('helllo DopeDev')
+		document.write('helllo DopeDev') */
+
+		//     add two numbers  static n  dynamic
+		/*let x= 10;
+		let y  = 2;
+		console.log(x+y)
+		document.write(x+y)    */
+
+		/*let  a = Number(prompt('number 1'))
+		let  b = Number(prompt('number 2'))
+		document.write(`sum is ${a+b}`)*/
+
+		//   squuare root of Number
+		/*let  a = Number(prompt('number 1'))
+		document.write(`square root is ${Math.sqrt(a)}`)*/
+
+		
+
+		/*function rs() {
+				let r = 1
+				var num = document.getElementById('num').value
+				for (var i = 1; i <= num; i++) {
+					r = r * i
+				}
+				document.getElementById('result').innerHTML = r
+			}*/
+
+			
+			function find(){
+				const  res = document.getElementById('res') 
+				const num =  document.getElementById('num').value;
+				res.innerHTML = num	
+				
+
+			}
+				
+	</script>
+</head>
+<body>
+	<!-- <label for="num">Enter the number : </label>
+	<input type="number" name="num" id="num" placeholder="number">
+	<button onclick="rs()">calculate</button>
+	<p id="result"></p> -->
+	<p>enter a number : </p>
+	<input type="number" id="num" placeholder="any number">
+	<button id="btn" onclick="find()">Find</button> 
+	<p id="res"></p>
+</body>
+</html>
